@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root, html.dark {
+    --canvas: #070a10;
+    --canvas-text: #f1f5f9;
+    --accent: #38bdf8;
+    --grid-line: rgba(56, 189, 248, 0.05);
+  }
+
+  html.light {
+    --canvas: #f8fafc;
+    --canvas-text: #0f172a;
+    --accent: #0284c7;
+    --grid-line: rgba(15, 23, 42, 0.05);
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--canvas-text);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Global CAD Engineering Grid */
+.cad-grid-pattern {
+  background-image: 
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+html {
+  scroll-behavior: smooth;
+}
