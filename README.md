@@ -91,6 +91,4 @@ To update your personal information, navigate to the specific components:
 
 This project is open-source and available under the [MIT License](LICENSE).
 
----
 *Designed & Developed Kr Satyam.*
-```
