@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
             <span>NEW DELHI, INDIA</span>
           </span>
           <span aria-hidden="true" className="text-slate-400 dark:text-slate-700">·</span>
-          <span className="text-sky-600 dark:text-sky-400 font-medium">BIM / CAD ARCHITECTURE</span>
+          <span className="text-sky-600 dark:text-sky-400 font-medium">BIM / CAD</span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
